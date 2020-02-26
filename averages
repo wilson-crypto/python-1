@@ -1,0 +1,7 @@
+num = int (input("type  10"))
+total_sum = 0
+for n in range (num):
+  numbers = float (input("Enter any 10 numbers"))
+  total_sum += numbers
+  avg =  total_sum / num
+print ("average is :" ,avg)
